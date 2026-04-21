@@ -24,8 +24,8 @@
                 adults must make adult choices.
                 Make a decision about the rest of your future. </p> <b> Don't look back. </b>
             <div class="button-row">
-                <a href="Go to College" class="main-button">Go To College</a>
-                <a href="Dont Go To College" class="main-button">Dont Go To College</a>
+                <a href="Go-to-College" class="main-button">Go To College</a>
+                <a href="Dont-Go-To-College" class="main-button">Dont Go To College</a>
             </div>
         </div>
     </div>
