@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="life"> <img src="Images/where are you in life.jpg" id="life"></img>
+        <img src="Images/5GZLUUXM75CN5PFDFQVAUQWE4MOXA2TU.gif" id="spiral"></img>
+        <img src="Images/WRAXITBKOTYEFITHKICEFHNH6GNFOAB3.gif" id="infinity"></img>
+
+</body>
+<style>
+    body {
+        color: white;
+        background: black;
+    }
+
+    .life {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    #life {
+        width: 50%;
+        height: auto
+    }
+
+    img {
+        position: absolute;
+        width: auto;
+    }
+
+    #infinity {
+        top: 20%;
+        left: 70%;
+    }
+
+    #spiral {
+        top: 70%;
+        left: 10%;
+    }
+</style>
+
+</html>
