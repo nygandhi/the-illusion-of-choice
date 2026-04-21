@@ -4,15 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+    <title>The Illusion of Choice</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="life"> <img src="Images/where are you in life.jpg" id="life"></img>
-        <img src="Images/5GZLUUXM75CN5PFDFQVAUQWE4MOXA2TU.gif" id="spiral"></img>
-        <img src="Images/WRAXITBKOTYEFITHKICEFHNH6GNFOAB3.gif" id="infinity"></img>
-
+    <A href="In the Beginning">
+    <div class="life"><img src="Images/where are you in life.jpg" id="life"></img></div></a>
+    <img src="Images/5GZLUUXM75CN5PFDFQVAUQWE4MOXA2TU.gif" id="spiral"></img>
+    <img src="Images/WRAXITBKOTYEFITHKICEFHNH6GNFOAB3.gif" id="infinity"></img>
+    <img src="Images/or.jpg" id="world"></img>
+    <img src="Images/eyes24.gif" id="eyes"></img>
+    <img src="Images/eyes24.gif" id="eyes1"></img>
+    <img src="Images/eyes24.gif" id="eyes2"></img>
+    <img src="Images/eyes24.gif" id="eyes3"></img>
+    <img src="Images/eyes24.gif" id="eyes4"></img>
+    <img src="Images/eyes24.gif" id="eyes5"></img>
+    <img src="Images/eyes24.gif" id="eyes6"></img>
+    <img src="Images/eyes24.gif" id="eyes7"></img>
+    <img src="Images/eyes24.gif" id="eyes8"></img>
+    <img src="Images/J6SWCJGZCIFSHLUNRHEYDOXYMUYVY74J.gif" id="butterfly"></img>
+    <img src="Images/ZNUHHPR6V2TYBHNCWTAMOQHV5OJZ547T.gif" id="chaos"></img>
+    <img src="Images/HGHhOyfXAAA6VZc.jpg" id="snoopy"></img>
 </body>
 <style>
     body {
@@ -45,6 +58,74 @@
     #spiral {
         top: 70%;
         left: 10%;
+    }
+
+    #world {
+        left: 40px;
+        top: 100px;
+        width: 400px;
+    }
+
+    #eyes {
+        top: 65%;
+        left: 50%
+    }
+
+    #eyes1 {
+        top: 65%;
+        left: 30%
+    }
+
+    #eyes2 {
+        top: 65%;
+        left: 35%
+    }
+
+    #eyes3 {
+        top: 65%;
+        left: 40%
+    }
+
+    #eyes4 {
+        top: 65%;
+        left: 45%
+    }
+
+    #eyes5 {
+        top: 65%;
+        left: 55%
+    }
+
+    #eyes6 {
+        top: 65%;
+        left: 60%
+    }
+
+    #eyes7 {
+        top: 65%;
+        left: 65%
+    }
+
+    #eyes8 {
+        top: 65%;
+        left: 70%
+    }
+
+    #butterfly {
+        left: 800px;
+        top: 100px;
+        width: 400px;
+    }
+
+    #chaos {
+        top: 40%;
+        left: 80%
+    }
+
+    #snoopy {
+        left: 1500px;
+        top: 600px;
+        width: 300px;
     }
 </style>
 

@@ -12,19 +12,17 @@
 <body>
     <div class="window">
         <div class="title-bar">
-            <span>In The Beginning</span>
+            <span>Decisons</span>
             <div class="buttons">
                 <span>X</span>
             </div>
         </div>
 
         <div class="window-content">
-            Your parents are too busy with their own troubles to worry about yours. You grow up like this, unguided,
-            unheard, and misunderstood. You don't blame them. It's not like you could've made better choices in their
-            position. You're lucky. It's all average. Middle class. Suburban. Potential like a hot knife you've
-            swallowed to remember the pain. Did
-            no one teach you to reach for the stars? Remember this when you make your choices.
-            <a href="Decisions" class="btn">Decisions</a>
+            Forget your childhood. It's not important <span class="rotated">(right?)</span>. You're an adult now, and adults must make adult choices. 
+            Make a decision about the rest of your future. <b> Don't look back. </b>
+            <a href="Decisions" class="btn">Go To College</a>
+            <a href="Decisions" class="btn">Dont Go To College</a>
         </div>
     </div>
 
@@ -66,6 +64,11 @@
         font-size: 12px;
     }
 
+    .rotated {
+  display: inline-block;
+  rotate: 15deg;
+    }
+
     .window-content {
         padding: 20px;
         color: black;
@@ -78,6 +81,7 @@
 
     .btn {
         display: inline-block;
+        margin-right: 10px;
         padding: 10px 20px;
         font-family: Arial, sans-serif;
         font-size: 16px;
