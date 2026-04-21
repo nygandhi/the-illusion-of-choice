@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <div class="scene">
     <A href="In the Beginning">
     <div class="life"><img src="Images/where are you in life.jpg" id="life"></img></div></a>
     <img src="Images/5GZLUUXM75CN5PFDFQVAUQWE4MOXA2TU.gif" id="spiral"></img>
@@ -26,11 +27,25 @@
     <img src="Images/J6SWCJGZCIFSHLUNRHEYDOXYMUYVY74J.gif" id="butterfly"></img>
     <img src="Images/ZNUHHPR6V2TYBHNCWTAMOQHV5OJZ547T.gif" id="chaos"></img>
     <img src="Images/HGHhOyfXAAA6VZc.jpg" id="snoopy"></img>
+    </div>
 </body>
 <style>
     body {
-        color: white;
+        margin: 0;
         background: black;
+    }
+
+    .scene {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+img {
+        position: absolute;
+        height: auto;
+        max-width: 100%;
     }
 
     .life {
@@ -45,10 +60,6 @@
         height: auto
     }
 
-    img {
-        position: absolute;
-        width: auto;
-    }
 
     #infinity {
         top: 20%;
@@ -61,9 +72,11 @@
     }
 
     #world {
-        left: 40px;
-        top: 100px;
-        width: 400px;
+        position: absolute;
+    left: 2vw;
+    top: 10vh;
+    width: 22vw;
+    max-width: 400px;
     }
 
     #eyes {
@@ -112,20 +125,24 @@
     }
 
     #butterfly {
-        left: 800px;
-        top: 100px;
-        width: 400px;
+        position: absolute;
+    left: 40vw;
+    top: 3vh;
+    width: 22vw;
+    max-width: 400px;
     }
 
     #chaos {
-        top: 40%;
+        top: 35%;
         left: 80%
     }
 
     #snoopy {
-        left: 1500px;
-        top: 600px;
-        width: 300px;
+        position: absolute;
+    left: 80vw;
+    top: 65vh;
+    width: 15vw;
+    max-width: 400px;
     }
 </style>
 

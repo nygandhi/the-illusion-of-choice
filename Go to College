@@ -5,26 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>In The Beginning</title>
+    <title>Go To College</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="window">
         <div class="title-bar">
-            <span>In The Beginning</span>
+            <span>Go To College</span>
             <div class="buttons">
                 <span>X</span>
             </div>
         </div>
 
         <div class="window-content">
-            Your parents are too busy with their own troubles to worry about yours. You grow up like this, unguided,
-            unheard, and misunderstood. You don't blame them. It's not like you could've made better choices in their
-            position. You're lucky. It's all average. Middle class. Suburban. Potential like a hot knife you've
-            swallowed to remember the pain. Did
-            no one teach you to reach for the stars? Remember this when you make your choices.
-            <a href="Decisions" class="main-button">Decisions</a>
+            <p> Great! This was really the only option. You'll figure everything out once you're there. You have four years, who can waste four years of their life? 
+            Lets pick a career. You're 18, hopefully you know exactly what you want to do for the rest of your life.
+             Don't make a mistake. </p>
+            <a href="I've Picked" class="main-button">I've Picked</a>
         </div>
     </div>
 
@@ -85,7 +83,16 @@
         text-decoration: none;
         border: 2px solid;
         border-color: white #404040 #404040 white;
-        box-shadow: inset -1px -1px #000, inset 1px 1px #fff;
+        box-shadow: inset -1px -1px  #000, inset 1px 1px #fff;
+    }
+
+      .main-button:hover {
+        cursor: pointer;
+    }
+
+    .main-button:active {
+        transform: translate(1px, 1px);
+        background-color: #004085;
     }
 </style>
 

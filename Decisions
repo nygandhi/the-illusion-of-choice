@@ -19,10 +19,14 @@
         </div>
 
         <div class="window-content">
-            Forget your childhood. It's not important <span class="rotated">(right?)</span>. You're an adult now, and adults must make adult choices. 
-            Make a decision about the rest of your future. <b> Don't look back. </b>
-            <a href="Decisions" class="btn">Go To College</a>
-            <a href="Decisions" class="btn">Dont Go To College</a>
+            <p> Forget your childhood. It's not important. <span class="rotated">(Right?)</span> You're an adult now,
+                and
+                adults must make adult choices.
+                Make a decision about the rest of your future. </p> <b> Don't look back. </b>
+            <div class="button-row">
+                <a href="Go to College" class="main-button">Go To College</a>
+                <a href="Dont Go To College" class="main-button">Dont Go To College</a>
+            </div>
         </div>
     </div>
 
@@ -41,8 +45,7 @@
         background-color: #c0c0c0;
         border: 2px solid;
         border-color: white #404040 #404040 white;
-        /* 3D effect */
-        box-shadow: inset -1px -1px 0 #000, inset 1px 1px 0 #fff;
+        box-shadow: inset -1px -1px #000, inset 1px 1px #fff;
         font-family: "MS Sans Serif", Arial, sans-serif;
     }
 
@@ -65,9 +68,16 @@
     }
 
     .rotated {
-  display: inline-block;
-  rotate: 15deg;
-    }
+        display: inline-block;
+        animation: wiggle-animation 0.5s infinite; }
+
+        @keyframes wiggle-animation {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(2deg); }
+  50% { transform: rotate(-2deg); }
+  75% { transform: rotate(2deg); }
+  100% { transform: rotate(0deg); }
+}
 
     .window-content {
         padding: 20px;
@@ -76,10 +86,15 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap: 15px;
     }
 
-    .btn {
+    .window-content p {
+        margin: 2px;
+        line-height: 24px
+    }
+
+    .main-button {
         display: inline-block;
         margin-right: 10px;
         padding: 10px 20px;
@@ -90,7 +105,21 @@
         text-decoration: none;
         border: 2px solid;
         border-color: white #404040 #404040 white;
-        box-shadow: inset -1px -1px 0 #000, inset 1px 1px 0 #fff;
+        box-shadow: inset -1px -1px #000, inset 1px 1px #fff;
+    }
+
+    .main-button:hover {
+        cursor: pointer;
+    }
+
+    .main-button:active {
+        transform: translate(1px, 1px);
+        background-color: #004085;
+    }
+
+    .button-row {
+        display: flex;
+        gap: 10px;
     }
 </style>
 
