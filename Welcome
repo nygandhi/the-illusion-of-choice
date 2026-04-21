@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Illusion of Choice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="scene">
+    <A href="In the Beginning">
+    <div class="life"><img src="Images/where are you in life.jpg" id="life"></img></div></a>
+    <img src="Images/5GZLUUXM75CN5PFDFQVAUQWE4MOXA2TU.gif" id="spiral"></img>
+    <img src="Images/WRAXITBKOTYEFITHKICEFHNH6GNFOAB3.gif" id="infinity"></img>
+    <img src="Images/or.jpg" id="world"></img>
+    <img src="Images/eyes24.gif" id="eyes"></img>
+    <img src="Images/eyes24.gif" id="eyes1"></img>
+    <img src="Images/eyes24.gif" id="eyes2"></img>
+    <img src="Images/eyes24.gif" id="eyes3"></img>
+    <img src="Images/eyes24.gif" id="eyes4"></img>
+    <img src="Images/eyes24.gif" id="eyes5"></img>
+    <img src="Images/eyes24.gif" id="eyes6"></img>
+    <img src="Images/eyes24.gif" id="eyes7"></img>
+    <img src="Images/eyes24.gif" id="eyes8"></img>
+    <img src="Images/J6SWCJGZCIFSHLUNRHEYDOXYMUYVY74J.gif" id="butterfly"></img>
+    <img src="Images/ZNUHHPR6V2TYBHNCWTAMOQHV5OJZ547T.gif" id="chaos"></img>
+    <img src="Images/HGHhOyfXAAA6VZc.jpg" id="snoopy"></img>
+    </div>
+</body>
+<style>
+    body {
+        margin: 0;
+        background: black;
+    }
+
+    .scene {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+img {
+        position: absolute;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .life {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    #life {
+        width: 50%;
+        height: auto
+    }
+
+
+    #infinity {
+        top: 20%;
+        left: 70%;
+    }
+
+    #spiral {
+        top: 70%;
+        left: 10%;
+    }
+
+    #world {
+        position: absolute;
+    left: 2vw;
+    top: 10vh;
+    width: 22vw;
+    max-width: 400px;
+    }
+
+    #eyes {
+        top: 65%;
+        left: 50%
+    }
+
+    #eyes1 {
+        top: 65%;
+        left: 30%
+    }
+
+    #eyes2 {
+        top: 65%;
+        left: 35%
+    }
+
+    #eyes3 {
+        top: 65%;
+        left: 40%
+    }
+
+    #eyes4 {
+        top: 65%;
+        left: 45%
+    }
+
+    #eyes5 {
+        top: 65%;
+        left: 55%
+    }
+
+    #eyes6 {
+        top: 65%;
+        left: 60%
+    }
+
+    #eyes7 {
+        top: 65%;
+        left: 65%
+    }
+
+    #eyes8 {
+        top: 65%;
+        left: 70%
+    }
+
+    #butterfly {
+        position: absolute;
+    left: 40vw;
+    top: 3vh;
+    width: 22vw;
+    max-width: 400px;
+    }
+
+    #chaos {
+        top: 35%;
+        left: 80%
+    }
+
+    #snoopy {
+        position: absolute;
+    left: 80vw;
+    top: 65vh;
+    width: 15vw;
+    max-width: 400px;
+    }
+</style>
+
+</html>

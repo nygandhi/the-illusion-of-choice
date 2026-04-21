@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Don't Go To College</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="window">
+        <div class="title-bar">
+            <span>Don't Go To College</span>
+            <div class="buttons">
+                <span>X</span>
+            </div>
+        </div>
+
+        <div class="window-content">
+            <p> Really? Disappoint your parents? Do you even know what you would do if you didn't go to college? 
+            What does it look like, how would you make money? This was never an option. 
+            <i>Don't pretend you're disciplined enough to pick this option.</i> </p>
+            <a href="Go to College" class="main-button">Go To College</a>
+        </div>
+    </div>
+
+</body>
+<style>
+    body {
+        background-color: black;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .window {
+        width: 500px;
+        background-color: #c0c0c0;
+        border: 2px solid;
+        border-color: white #404040 #404040 white;
+        box-shadow: inset -1px -1px #000, inset 1px 1px #fff;
+        font-family: "MS Sans Serif", Arial, sans-serif;
+    }
+
+    .title-bar {
+        background: linear-gradient(to right, navy, blue);
+        color: white;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .buttons span {
+        background: #c0c0c0;
+        border: 1px solid #000;
+        padding: 0 5px;
+        margin-left: 3px;
+        font-size: 12px;
+    }
+
+    .window-content {
+        padding: 20px;
+        color: black;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .window-content p {
+        margin: 2px;
+        line-height: 24px
+    }
+
+    .main-button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        color: black;
+        background-color: #c0c0c0;
+        text-decoration: none;
+        border: 2px solid;
+        border-color: white #404040 #404040 white;
+        box-shadow: inset -1px -1px  #000, inset 1px 1px #fff;
+    }
+
+      .main-button:hover {
+        cursor: pointer;
+    }
+
+    .main-button:active {
+        transform: translate(1px, 1px);
+        background-color: #004085;
+    }
+</style>
+
+</html>
