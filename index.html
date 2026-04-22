@@ -10,23 +10,23 @@
 
 <body>
     <div class="scene">
-    <A href="In-the-Beginning">
-    <div class="life"><img src="Images/where are you in life.jpg" id="life"></img></div></A>
-    <img src="Images/5GZLUUXM75CN5PFDFQVAUQWE4MOXA2TU.gif" id="spiral"></img>
-    <img src="Images/WRAXITBKOTYEFITHKICEFHNH6GNFOAB3.gif" id="infinity"></img>
-    <img src="Images/or.jpg" id="world"></img>
-    <img src="Images/eyes24.gif" id="eyes"></img>
-    <img src="Images/eyes24.gif" id="eyes1"></img>
-    <img src="Images/eyes24.gif" id="eyes2"></img>
-    <img src="Images/eyes24.gif" id="eyes3"></img>
-    <img src="Images/eyes24.gif" id="eyes4"></img>
-    <img src="Images/eyes24.gif" id="eyes5"></img>
-    <img src="Images/eyes24.gif" id="eyes6"></img>
-    <img src="Images/eyes24.gif" id="eyes7"></img>
-    <img src="Images/eyes24.gif" id="eyes8"></img>
-    <img src="Images/J6SWCJGZCIFSHLUNRHEYDOXYMUYVY74J.gif" id="butterfly"></img>
-    <img src="Images/ZNUHHPR6V2TYBHNCWTAMOQHV5OJZ547T.gif" id="chaos"></img>
-    <img src="Images/HGHhOyfXAAA6VZc.jpg" id="snoopy"></img>
+        <div class="life"><a href="In-the-Beginning"><img src="Images/where are you in life.jpg" id="life"></img></a>
+        </div>
+        <img src="Images/5GZLUUXM75CN5PFDFQVAUQWE4MOXA2TU.gif" id="spiral"></img>
+        <img src="Images/WRAXITBKOTYEFITHKICEFHNH6GNFOAB3.gif" id="infinity"></img>
+        <img src="Images/or.jpg" id="world"></img>
+        <img src="Images/eyes24.gif" id="eyes"></img>
+        <img src="Images/eyes24.gif" id="eyes1"></img>
+        <img src="Images/eyes24.gif" id="eyes2"></img>
+        <img src="Images/eyes24.gif" id="eyes3"></img>
+        <img src="Images/eyes24.gif" id="eyes4"></img>
+        <img src="Images/eyes24.gif" id="eyes5"></img>
+        <img src="Images/eyes24.gif" id="eyes6"></img>
+        <img src="Images/eyes24.gif" id="eyes7"></img>
+        <img src="Images/eyes24.gif" id="eyes8"></img>
+        <img src="Images/J6SWCJGZCIFSHLUNRHEYDOXYMUYVY74J.gif" id="butterfly"></img>
+        <img src="Images/ZNUHHPR6V2TYBHNCWTAMOQHV5OJZ547T.gif" id="chaos"></img>
+        <img src="Images/HGHhOyfXAAA6VZc.jpg" id="snoopy"></img>
     </div>
 </body>
 <style>
@@ -36,28 +36,34 @@
     }
 
     .scene {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-}
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
 
-img {
+    img {
         position: absolute;
         height: auto;
         max-width: 100%;
     }
 
-    .life {
+    /* .life {
+        width: 30vw;
+        margin-left: 25%;
+        margin-right: 25%;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center; */
+        /* align-items: center;
         height: 100vh;
-    }
+    } */
 
     #life {
-        width: 50%;
-        height: auto
+        position: absolute;
+        left: 28vw;
+        top: 45vh;
+        width: 50vw;
+        max-width: 700px;
     }
 
 
@@ -73,10 +79,10 @@ img {
 
     #world {
         position: absolute;
-    left: 2vw;
-    top: 10vh;
-    width: 22vw;
-    max-width: 400px;
+        left: 2vw;
+        top: 10vh;
+        width: 22vw;
+        max-width: 400px;
     }
 
     #eyes {
@@ -126,10 +132,10 @@ img {
 
     #butterfly {
         position: absolute;
-    left: 40vw;
-    top: 3vh;
-    width: 22vw;
-    max-width: 400px;
+        left: 40vw;
+        top: 5vh;
+        width: 22vw;
+        max-width: 500px;
     }
 
     #chaos {
@@ -139,10 +145,10 @@ img {
 
     #snoopy {
         position: absolute;
-    left: 80vw;
-    top: 65vh;
-    width: 15vw;
-    max-width: 400px;
+        left: 80vw;
+        top: 65vh;
+        width: 15vw;
+        max-width: 400px;
     }
 </style>
 
