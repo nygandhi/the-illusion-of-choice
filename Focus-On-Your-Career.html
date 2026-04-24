@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>In The Beginning</title>
     <link rel="stylesheet" href="style.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
@@ -16,20 +15,19 @@
 <body>
     <div class="window">
         <div class="title-bar">
-            <span>In The Beginning</span>
+            <span>Decisons</span>
             <div class="buttons">
                 <span>X</span>
             </div>
         </div>
 
         <div class="window-content">
-            <p>Your parents are too busy with their own troubles to worry about yours. You grow up like this, unguided,
-                unheard, and misunderstood. You don't blame them. It's not like you could've made better choices in
-                their
-                position. You're lucky. It's all average. Middle class. Suburban. Potential like a hot knife you've
-                swallowed to remember the pain. Did
-                no one teach you to reach for the stars? Remember this when you make your choices. </p>
-            <a href="Decisions.html" class="main-button">DECISIONS</a>
+            <p> What would it look like if you did this? Could you be a better consumer? Spend more, do more, eat more, see more, be more? Would the world bend to your will... or would you still be you, at the end of the day. Average citizen, participant, a blip in the timeline of the universe trying your best to make your time on this earth worth something, anything. 
+                Proof of existence. Would a successful career be that? Is the time you spent making capital gains going to make you happy? Are you the choices you have made thus far? </p>
+            <div class="button-row">
+                <a href="Yes.html" class="main-button">YES</a>
+                <a href="Yes.html" class="main-button">YES</a>
+            </div>
         </div>
     </div>
 
@@ -77,20 +75,20 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 20px;
-        font-family:"Jersey 25", sans-serif;
+        gap: 15px;
+        font-family: "Jersey 25", sans-serif;
         font-weight: 400;
         font-style: normal;
-
     }
 
     .window-content p {
         margin: 2px;
-        line-height: 20px
+        line-height: 24px
     }
 
     .main-button {
         display: inline-block;
+        margin-right: 10px;
         padding: 10px 20px;
         font-family: "Jersey 25", sans-serif;
         font-weight: 400;
@@ -102,6 +100,20 @@
         border: 2px solid;
         border-color: white #404040 #404040 white;
         box-shadow: inset -1px -1px #000, inset 1px 1px #fff;
+    }
+
+    .main-button:hover {
+        cursor: pointer;
+    }
+
+    .main-button:active {
+        transform: translate(1px, 1px);
+        background-color: #004085;
+    }
+
+    .button-row {
+        display: flex;
+        gap: 10px;
     }
 </style>
 
