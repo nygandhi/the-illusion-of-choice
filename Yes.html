@@ -11,8 +11,8 @@
 <body>
 
     <div class="screen">
-        <img src="Pics of Me/798254151.203714.jpg" class="memory m1">
-        <img src="Pics of Me/798254258.827666.jpg" class="memory m2">
+        <img src="Pics of Me/798254151.203714.jpg" class="memory m1 fading-image-1">
+        <img src="Pics of Me/798254258.827666.jpg" class="memory m2" >
         <img src="Pics of Me/798254340.877543.jpg" class="memory m3">
         <img src="Pics of Me/798254414.813849.jpg" class="memory m4">
         <img src="Pics of Me/798254492.657104.jpg" class="memory m5">
@@ -28,6 +28,39 @@
 
 </body>
 <style>
+
+    .fading-image-1 {
+    width: 300px;
+    animation: fadeIn 4s, fadeOut 5s forwards; /* 5 second total cycle */
+    }
+
+    .fading-image-2 {
+    width: 300px;
+    animation: fadeOut 2s forwards; /* 5 second total cycle */
+    }
+
+    .fading-image-3 {
+    width: 300px;
+    animation: fadeOut 4s forwards; /* 5 second total cycle */
+    }
+
+    .fading-image-4 {
+    width: 300px;
+    animation: fadeOut 3s forwards; /* 5 second total cycle */
+    }
+
+    @keyframes fadeIn {
+    0% { opacity: 0; } 
+    50% { opacity: 1; }     
+    }
+
+    @keyframes fadeOut {
+    50% { opacity: 1; } 
+    100% { opacity: 0; }     
+    }
+
+
+
     body {
         margin: 0;
         background: black;
